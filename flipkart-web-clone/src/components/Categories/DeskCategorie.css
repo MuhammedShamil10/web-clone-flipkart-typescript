@@ -1,0 +1,22 @@
+.desktop-categories {
+    display: flex;
+    justify-content: center;
+}
+.caregories-center {
+    display: flex;
+    justify-content: space-between;
+}
+.categories-list img {
+    width: 64px;
+}
+.categories-list a {
+    text-decoration: none;
+}
+.item-name span {
+    font-size: 14px;
+    font-family: 'font-medium';
+
+}
+.item-name img {
+    width: 7.8px;
+}

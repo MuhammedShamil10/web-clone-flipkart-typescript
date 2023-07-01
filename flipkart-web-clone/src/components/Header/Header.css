@@ -1,7 +1,6 @@
 header {
   background-color: rgba(40, 116, 240, 1);
 }
-
 .top-header-section {
   display: flex;
   justify-content: space-between;
@@ -61,4 +60,16 @@ header {
 .input-text {
     font-size: 14px;
     color: #878787;
+}
+
+@media screen and (min-width: 1400px) {
+  .header-center {
+    display: none;
+  }
+  .image-section {
+    display: none;
+  }
+  .top-header-section {
+    justify-content: center;
+  }
 }
