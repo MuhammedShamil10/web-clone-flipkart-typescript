@@ -8,12 +8,17 @@
   src: url(./Assets/font/roboto-regular.woff2);
 }
 
+body {
+  background-color: #f1f3f4;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
 }
+
 h1,
 h2,
 h3,
@@ -21,6 +26,13 @@ h3,
 a,
 span {
   color: #212121;
+}
+
+nav {
+  background-color: #fff;
+}
+.desktop-slider-container {
+  padding:20px 8px 0px 8px;
 }
 
 

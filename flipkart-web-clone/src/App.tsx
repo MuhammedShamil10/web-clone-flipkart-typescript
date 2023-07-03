@@ -5,11 +5,18 @@ import Categories from "./components/Categories/Categories";
 import { CategoriesMobile } from "./types"
 import { NavItem } from "./types";
 import DeskCategorie from "./components/Categories/DeskCategorie";
+import ImgSlider from "./components/ImageSlider/ImgSlider";
+import DesktopSlider from "./components/DesktopSlider/DesktopSlider";
+import RecentlyView from "./components/RecentlyView/RecentlyView";
+
 
 function App() {
 
-  const [categoriesData, setCategoriesData] = useState<CategoriesMobile[]>([]);
-  const [desktopCategoriesData, setDesktopCategoriesData] = useState< NavItem[]>([]);
+  const[categoriesData, setCategoriesData] = useState<CategoriesMobile[]>([]);
+  const[desktopCategoriesData, setDesktopCategoriesData] = useState< NavItem[]>([]);
+  const[imageSlider, setImageSlider] = useState([]);
+  const[desktopSlider, setDesktopSlider] = useState([]);
+  const[recentlyItem, setRecentlyItem] = useState([]);
 
   const fetchData = () => {
     fetch("./data.json")
@@ -18,12 +25,12 @@ function App() {
       })
       .then((data) => {
         setCategoriesData(data.categoriesMobile);
-        setDesktopCategoriesData(data.navItems)
+        setDesktopCategoriesData(data.navItems);
+        setImageSlider(data.imageSlideMobile);
+        setDesktopSlider(data.slideShow);
+        setRecentlyItem(data.recentlyViewedStored);
       });
   };
-
-  console.log(desktopCategoriesData);
-  
 
   useEffect(() => {
     fetchData();
@@ -35,6 +42,9 @@ function App() {
       <Header />
       <Categories MobileValue={categoriesData}/>
       <DeskCategorie desktopValue={desktopCategoriesData}/>
+      <ImgSlider sliderValue={imageSlider}/>
+      <DesktopSlider desktopValue={desktopSlider} />
+      <RecentlyView WatchedValue={recentlyItem} />
     </div>
   );
 }

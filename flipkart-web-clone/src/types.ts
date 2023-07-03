@@ -1,3 +1,5 @@
+import { type } from "os"
+
 export interface FlipkartData {
     categoriesMobile: string[]
     imageSlideMobile: ImageSlideMobile[]
@@ -25,9 +27,8 @@ export interface FlipkartData {
 
   export type CategoriesMobile =string
   
-  export interface ImageSlideMobile {
-    img: string
-  }
+  export type ImageSlideMobile = string
+
   
   export interface RecentlyViewedStored {
     img: string
@@ -98,9 +99,7 @@ export interface FlipkartData {
     downArrow: boolean
   }
   
-  export interface SlideShow {
-    image: string
-  }
+  export type SlideShow = string
   
   export interface Electronic {
     img: string
