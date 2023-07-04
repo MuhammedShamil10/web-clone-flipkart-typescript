@@ -1,5 +1,5 @@
 import { RecentlyViewedStored } from "../../types";
-import './RecentlyView.css'
+import "./RecentlyView.css";
 
 interface valueProps {
   WatchedValue: RecentlyViewedStored[];
@@ -14,11 +14,12 @@ export default function RecentlyView({ WatchedValue }: valueProps) {
           {WatchedValue.map((item) => (
             <div className="items-list">
               <img src={item.img} alt="Image" />
-              <div className="item-name">{item.name}</div>
+              <div className="item-names">{item.name}</div>
             </div>
           ))}
         </div>
       </div>
+    
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.sponser-container {
+    background-color: #fff;
+}
+.sponser-product img {
+    width: 33.333%;
+}
+@media screen and (min-width: 1400px) {
+    .sponser-container {
+        display: none;
+    }
+}

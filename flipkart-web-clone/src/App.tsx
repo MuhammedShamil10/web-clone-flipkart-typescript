@@ -2,12 +2,14 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import Categories from "./components/Categories/Categories";
-import { CategoriesMobile } from "./types"
+import { CampusItem, CategoriesMobile } from "./types"
 import { NavItem } from "./types";
 import DeskCategorie from "./components/Categories/DeskCategorie";
 import ImgSlider from "./components/ImageSlider/ImgSlider";
 import DesktopSlider from "./components/DesktopSlider/DesktopSlider";
 import RecentlyView from "./components/RecentlyView/RecentlyView";
+import Sponsored from "./components/Sponsored/Sponsored";
+import CampusItems from "./components/CampusItems/CampusItems";
 
 
 function App() {
@@ -17,6 +19,10 @@ function App() {
   const[imageSlider, setImageSlider] = useState([]);
   const[desktopSlider, setDesktopSlider] = useState([]);
   const[recentlyItem, setRecentlyItem] = useState([]);
+  const[sponsoredData, setSponsoredData] = useState([]);
+  const[campusItemData, setCampusItem] = useState([]);
+  const[Bestseller, setBestseller] = useState([]);
+
 
   const fetchData = () => {
     fetch("./data.json")
@@ -29,6 +35,9 @@ function App() {
         setImageSlider(data.imageSlideMobile);
         setDesktopSlider(data.slideShow);
         setRecentlyItem(data.recentlyViewedStored);
+        setSponsoredData(data.sponsored);
+        setCampusItem(data.campusItem);
+        setBestseller(data.)
       });
   };
 
@@ -45,6 +54,8 @@ function App() {
       <ImgSlider sliderValue={imageSlider}/>
       <DesktopSlider desktopValue={desktopSlider} />
       <RecentlyView WatchedValue={recentlyItem} />
+      <Sponsored sponseredValue={sponsoredData}/>
+      <CampusItems campusValue={campusItemData} />
     </div>
   );
 }

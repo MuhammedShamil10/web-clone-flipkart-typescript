@@ -15,4 +15,7 @@
     .slide-section {
         display: none;
     }
+    .RecentlyView-container {
+      display: none;
+    }
 }

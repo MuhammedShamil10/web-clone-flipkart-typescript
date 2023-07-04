@@ -1,4 +1,3 @@
-import { type } from "os"
 
 export interface FlipkartData {
     categoriesMobile: string[]
@@ -33,11 +32,9 @@ export interface FlipkartData {
   export interface RecentlyViewedStored {
     img: string
     name: string
-  }
+  } 
   
-  export interface Sponsored {
-    imgName: string
-  }
+  export type Sponsored = string
   
   export interface AdditionSponsored {
     imgName: string
