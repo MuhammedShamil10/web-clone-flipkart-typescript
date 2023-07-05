@@ -10,6 +10,8 @@ import DesktopSlider from "./components/DesktopSlider/DesktopSlider";
 import RecentlyView from "./components/RecentlyView/RecentlyView";
 import Sponsored from "./components/Sponsored/Sponsored";
 import CampusItems from "./components/CampusItems/CampusItems";
+import Bestseller from "./components/Bestseller/BestsellerM";
+import BestsellerM from "./components/Bestseller/BestsellerM";
 
 
 function App() {
@@ -21,7 +23,7 @@ function App() {
   const[recentlyItem, setRecentlyItem] = useState([]);
   const[sponsoredData, setSponsoredData] = useState([]);
   const[campusItemData, setCampusItem] = useState([]);
-  const[Bestseller, setBestseller] = useState([]);
+  const[bestsellerData, setBestseller] = useState([]);
 
 
   const fetchData = () => {
@@ -37,7 +39,7 @@ function App() {
         setRecentlyItem(data.recentlyViewedStored);
         setSponsoredData(data.sponsored);
         setCampusItem(data.campusItem);
-        setBestseller(data.)
+        setBestseller(data.bestseller)
       });
   };
 
@@ -56,6 +58,7 @@ function App() {
       <RecentlyView WatchedValue={recentlyItem} />
       <Sponsored sponseredValue={sponsoredData}/>
       <CampusItems campusValue={campusItemData} />
+      <BestsellerM sellerValue={bestsellerData}/>
     </div>
   );
 }
