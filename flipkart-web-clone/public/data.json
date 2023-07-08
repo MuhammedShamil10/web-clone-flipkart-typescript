@@ -83,12 +83,12 @@
   ],
   "bestsellers": [
     {
-      "img": "https://rukminim2.flixcart.com/image/240/240/xif0q/screen-guard/edge-to-edge-screen-guard/s/p/z/dg-dz09-phone-smatwatch-raptag-original-imaghg54yxfvdmjc.jpeg?q=60",
+      "img": "https://rukminim2.flixcart.com/image/240/240/l2jcccw0/headphone/p/y/z/-original-imagdusk5eh9ewy9.jpeg?q=60",
       "name": "Audio Players",
       "priceOffer": "Min. 60% %Off"
     },
     {
-      "img": "https://rukminim2.flixcart.com/image/240/240/xif0q/mobile/d/w/x/hot-30i-x669c-infinix-original-imagzyfawjmmcgpg.jpeg?q=60",
+      "img": "https://rukminim2.flixcart.com/image/240/240/xif0q/sandal/p/c/s/5-402-38-picktoes-pink-beige-original-imagp4kqjdcfrpwk.jpeg?q=60",
       "name": "Mobiles & Accessories",
       "priceOffer": "No Cost EMI"
     },
@@ -98,18 +98,14 @@
       "priceOffer": "From ₹199"
     },
     {
-      "img": "https://rukminim2.flixcart.com/fk-p-flap/240/240/image/a76f98b64fd981cd.jpg?q=60",
+      "img": "https://rukminim2.flixcart.com/image/240/240/l3xcr680/mobile/g/i/u/-original-imagexf3spjgyezy.jpeg?q=60",
       "name": "Men's T-shirts",
       "priceOffer": "From ₹149"
     }
   ],
   "mansoonDeals": [
-    {
-      "imgName": "https://rukminim2.flixcart.com/fk-p-image/320/414/cf-ce-calvin-prod1/79a453f1317dbc702a3c5f728e5f7eee.JPEG?q=60"
-    },
-    {
-      "imgName": "https://rukminim2.flixcart.com/fk-p-image/320/414/cf-ce-calvin-prod9/f3ab68284dedb9827141f5d8bedecc35.JPEG?q=60"
-    }
+       "https://rukminim2.flixcart.com/fk-p-image/320/414/cf-ce-calvin-prod1/79a453f1317dbc702a3c5f728e5f7eee.JPEG?q=60",
+       "https://rukminim2.flixcart.com/fk-p-image/320/414/cf-ce-calvin-prod9/f3ab68284dedb9827141f5d8bedecc35.JPEG?q=60"
   ],
   "notification": {
     "img": "https://rukminim2.flixcart.com/www/640/356/promos/08/04/2019/acec4504-49df-4bcc-b151-52764ef31b17.jpg?q=60",
@@ -122,12 +118,8 @@
     "button": "LOGIN"
   },
   "paylater": [
-    {
-      "imgText": "https://rukminim2.flixcart.com/fk-p-flap/320/455/image/0518631320be0de6.jpg?q=60"
-    },
-    {
-      "imgText": "https://rukminim2.flixcart.com/fk-p-flap/320/455/image/829a52c69c92c2f6.jpg?q=60"
-    }
+       "https://rukminim2.flixcart.com/fk-p-flap/320/455/image/0518631320be0de6.jpg?q=60",
+       "https://rukminim2.flixcart.com/fk-p-flap/320/455/image/829a52c69c92c2f6.jpg?q=60"
   ],
   "grabOrGone": [
     {
@@ -236,7 +228,8 @@
     "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/ed12b7707a04473c.jpg?q=50",
     "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/44bb278bc0f73824.jpg?q=50",
     "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/aa1b2bdcf519b468.jpg?q=50",
-    "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/94259f8832cdf08b.jpg?q=50"
+    "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/94259f8832cdf08b.jpg?q=50",
+    "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/ed12b7707a04473c.jpg?q=50"
   ],
   "electronics": [
     {

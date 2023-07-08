@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Main.css";
 import { useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import Categories from "./components/Categories/Categories";
@@ -12,10 +13,11 @@ import Sponsored from "./components/Sponsored/Sponsored";
 import CampusItems from "./components/CampusItems/CampusItems";
 import Bestseller from "./components/Bestseller/BestsellerM";
 import BestsellerM from "./components/Bestseller/BestsellerM";
+import Mansoon from "./components/mansoonDeals/Mansoon";
+import GraborGone from "./components/GraborGone/GraborGone";
 
 
 function App() {
-
   const[categoriesData, setCategoriesData] = useState<CategoriesMobile[]>([]);
   const[desktopCategoriesData, setDesktopCategoriesData] = useState< NavItem[]>([]);
   const[imageSlider, setImageSlider] = useState([]);
@@ -24,7 +26,8 @@ function App() {
   const[sponsoredData, setSponsoredData] = useState([]);
   const[campusItemData, setCampusItem] = useState([]);
   const[bestsellerData, setBestseller] = useState([]);
-
+  const[mansoonDealsData,setmansoonDeals] = useState([]);
+  const[grabOrgoneData, setgrabOrgone] = useState([]);
 
   const fetchData = () => {
     fetch("./data.json")
@@ -39,7 +42,9 @@ function App() {
         setRecentlyItem(data.recentlyViewedStored);
         setSponsoredData(data.sponsored);
         setCampusItem(data.campusItem);
-        setBestseller(data.bestseller)
+        setBestseller(data.bestsellers);
+        setmansoonDeals(data.mansoonDeals);
+        setgrabOrgone(data.grabOrGone);
       });
   };
 
@@ -53,12 +58,16 @@ function App() {
       <Header />
       <Categories MobileValue={categoriesData}/>
       <DeskCategorie desktopValue={desktopCategoriesData}/>
+      <div className="Main">
       <ImgSlider sliderValue={imageSlider}/>
       <DesktopSlider desktopValue={desktopSlider} />
       <RecentlyView WatchedValue={recentlyItem} />
       <Sponsored sponseredValue={sponsoredData}/>
       <CampusItems campusValue={campusItemData} />
       <BestsellerM sellerValue={bestsellerData}/>
+      <Mansoon mansoonValue={mansoonDealsData}/>
+      <GraborGone grabOrGoneValue={grabOrgoneData} />
+      </div>
     </div>
   );
 }

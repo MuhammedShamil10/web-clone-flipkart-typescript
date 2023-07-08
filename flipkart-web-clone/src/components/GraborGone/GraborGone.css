@@ -1,0 +1,22 @@
+.placer-order-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  background: #fff;
+}
+.order-section {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.plus {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1400px) {
+  .placer-order-section {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+.bestseller-container {
+    position: relative;
+    background: linear-gradient(rgb(9, 202, 254),
+                                 rgb(9, 202, 254));
+}
+.bestseller-heading img {
+    width: 100%;
+}
+.bestseller-heading span {
+    position: absolute;
+    top: 28px;
+    left: 15px;
+}
+.image-bestseller-section img {
+    margin-bottom: 7px;
+    width: 69%;
+}
+.bestseller-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image-bestseller-section {
+    display: flex;
+    justify-content: center;
+}
+.list-details {
+    border: 1px solid rgb(240, 240, 240);
+}
+.bestseller-product-list {
+    padding: 10px;
+}
