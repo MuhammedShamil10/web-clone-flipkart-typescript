@@ -30,7 +30,7 @@ export default function DesktopSlider({ desktopValue }: desktopSlider) {
   }
 
 
-
+// sample
   const Callindex = () => {
     console.log(index, desktopValue.length)
     if(index == desktopValue.length - 1){
