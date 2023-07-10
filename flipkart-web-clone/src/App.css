@@ -33,6 +33,9 @@ nav {
 .desktop-slider-container {
   padding: 20px 8px 0 8px;
 }
+.dsk-electronic-container {
+  display: none;
+}
 
 @media screen and (min-width: 1400px) {
   .bestseller-container {

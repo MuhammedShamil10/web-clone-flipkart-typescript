@@ -123,4 +123,11 @@ export interface FlipkartData {
     name: string
     offer: string
   }
+
+  export interface ProductCard {
+    image: string 
+    ProductName: string
+    text: string
+    brand: string
+  }
   

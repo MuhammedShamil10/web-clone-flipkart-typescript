@@ -15,6 +15,8 @@ import Bestseller from "./components/Bestseller/BestsellerM";
 import BestsellerM from "./components/Bestseller/BestsellerM";
 import Mansoon from "./components/mansoonDeals/Mansoon";
 import GraborGone from "./components/GraborGone/GraborGone";
+import Electronics from "./components/ElectronicsItems/Electronics";
+import ToysandMore from "./components/ToysandMore/ToysandMore";
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
   const[bestsellerData, setBestseller] = useState([]);
   const[mansoonDealsData,setmansoonDeals] = useState([]);
   const[grabOrgoneData, setgrabOrgone] = useState([]);
+  const[electronicData, setElectronicData] = useState([]);
+  const[toysAndData, setToysAndData] = useState([]);
 
   const fetchData = () => {
     fetch("./data.json")
@@ -45,6 +49,8 @@ function App() {
         setBestseller(data.bestsellers);
         setmansoonDeals(data.mansoonDeals);
         setgrabOrgone(data.grabOrGone);
+        setElectronicData(data.electronics);
+        setToysAndData(data.toysMore)
       });
   };
 
@@ -67,28 +73,11 @@ function App() {
       <BestsellerM sellerValue={bestsellerData}/>
       <Mansoon mansoonValue={mansoonDealsData}/>
       <GraborGone grabOrGoneValue={grabOrgoneData} />
+      <Electronics electronicValue={electronicData}/>
+      <ToysandMore toysValue={toysAndData}/>
       </div>
     </div>
   );
 }
 
 export default App;
-
-/*  const [categoriesData, setCategoriesData] = useState([])
-
-const fetchData = () => {
-  fetch('./data.json')
-  .then((response) => {
-    return response.json()
-  })
-  .then((data) => {
-    setCategoriesData(data.categories)
-  })
-}
-
-useEffect(() => {
-  fetchData()
-}, [])
-
-
-*/
