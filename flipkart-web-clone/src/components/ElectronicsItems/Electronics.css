@@ -10,7 +10,7 @@
     width: 230px;
   }
   .left-text {
-    padding: 28px 10px 124px;
+    padding: 36px 10px 48px;
     width: 230px;
   }
   .left-text h2 {
@@ -73,10 +73,10 @@
   }
   .right-el-image img {
     max-width: 100%;
-    max-height: 525px;
+    max-height: 444px;
   }
   .center-items-section {
-    width: 33%;
+    width: 29%;
   }
   .prev-arrow {
     display: flex;

@@ -1,20 +1,23 @@
-import React from 'react'
+import { SideDetailsCard } from '../../types';
+import './SideDetailsCards.css';
 
-export default function SideDetailsCards() {
+interface SideProp {
+  sideItems: SideDetailsCard
+}
+
+export default function SideDetailsCards({sideItems}: SideProp) {
   return (
-    <div>dfgdf</div>
   
-    //     <div className="left-electronic-section">
-    //     <div className="left-text">
-    //       <h2>{name}</h2>
-    //       <div className="button-view">
-    //         <a href="">{allText}</a>
-    //       </div>
-    //       <div className="image">
-    //         <img src={image} alt="" />
-    //       </div>
-    //     </div>
-    //   </div>
-    
+        <div className="left-electronic-sections"> 
+        <div className="left-text">
+          <h2>{sideItems.name}</h2>
+          <div className="button-view">
+            <a href=''>{sideItems.allText}</a>
+          </div>
+        </div>
+          <div className="image">
+            <img src={sideItems.image} alt="" />
+          </div>
+      </div>
   )
 }

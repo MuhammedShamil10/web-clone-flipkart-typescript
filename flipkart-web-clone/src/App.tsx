@@ -3,7 +3,7 @@ import "./Main.css";
 import { useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import Categories from "./components/Categories/Categories";
-import { CampusItem, CategoriesMobile } from "./types"
+import { CategoriesMobile } from "./types"
 import { NavItem } from "./types";
 import DeskCategorie from "./components/Categories/DeskCategorie";
 import ImgSlider from "./components/ImageSlider/ImgSlider";
@@ -16,8 +16,8 @@ import BestsellerM from "./components/Bestseller/BestsellerM";
 import Mansoon from "./components/mansoonDeals/Mansoon";
 import GraborGone from "./components/GraborGone/GraborGone";
 import Electronics from "./components/ElectronicsItems/Electronics";
-import ToysandMore from "./components/ToysandMore/ToysandMore";
-
+import SideDetailsCards from "./components/ProductCards/SideDetailsCards";
+import ProductCards from "./components/ProductCards/ProductCards";
 
 function App() {
   const[categoriesData, setCategoriesData] = useState<CategoriesMobile[]>([]);
@@ -32,6 +32,18 @@ function App() {
   const[grabOrgoneData, setgrabOrgone] = useState([]);
   const[electronicData, setElectronicData] = useState([]);
   const[toysAndData, setToysAndData] = useState([]);
+  const[toysSide, setToysSide] = useState({
+    name:"",
+    allText:"",
+    image:""
+  });
+  
+  const[campusData, setCampusData] = useState([]);
+  const[compusSideData, setCompusSideData] = useState({
+    name:"",
+    allText:"",
+    image: ""
+  });
 
   const fetchData = () => {
     fetch("./data.json")
@@ -50,7 +62,10 @@ function App() {
         setmansoonDeals(data.mansoonDeals);
         setgrabOrgone(data.grabOrGone);
         setElectronicData(data.electronics);
-        setToysAndData(data.toysMore)
+        setToysAndData(data.toysMore);
+        setToysSide(data.toysSide);
+        setCampusData(data.campusDeals);
+        setCompusSideData(data.compusSide)
       });
   };
 
@@ -58,6 +73,8 @@ function App() {
     fetchData();
   }, []);
 
+  console.log("dfashs"+toysSide);
+  
   
   return (
     <div className="App">
@@ -74,7 +91,14 @@ function App() {
       <Mansoon mansoonValue={mansoonDealsData}/>
       <GraborGone grabOrGoneValue={grabOrgoneData} />
       <Electronics electronicValue={electronicData}/>
-      <ToysandMore toysValue={toysAndData}/>
+      <div className="items-joining">
+      <SideDetailsCards sideItems={toysSide} />
+      <ProductCards productValue={toysAndData}/>
+      </div>
+      <div className="campus-joining">
+      <SideDetailsCards sideItems={compusSideData} />
+      <ProductCards productValue={campusData} />
+      </div>
       </div>
     </div>
   );

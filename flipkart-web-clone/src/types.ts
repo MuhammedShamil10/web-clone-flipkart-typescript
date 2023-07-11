@@ -18,7 +18,6 @@ export interface FlipkartData {
     navItems: NavItem[]
     slideShow: SlideShow[]
     electronics: Electronic[]
-    toysMore: ToysMore[]
     campusDeals: CampusDeal[]
     monsoonEssential: MonsoonEssential[]
   }
@@ -105,29 +104,28 @@ export interface FlipkartData {
     brands: string
   }
   
-  export interface ToysMore {
-    img: string
-    name: string
-    offer: string
-    brands: string
-  }
-  
   export interface CampusDeal {
-    img: string
-    name: string
-    offer: string
+    image: string
+    ProductNames: string
+    text: string
   }
   
   export interface MonsoonEssential {
-    img: string
-    name: string
-    offer: string
+    imgages: string
+    names: string
+    offers: string
   }
 
   export interface ProductCard {
     image: string 
-    ProductName: string
+    ProductNames: string
     text: string
     brand: string
+  }
+
+  export interface SideDetailsCard {
+    name: string
+    allText: string
+    image: string
   }
   

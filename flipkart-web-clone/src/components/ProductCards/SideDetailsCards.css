@@ -1,0 +1,37 @@
+
+  @media screen and (min-width: 1400px) {
+    .Side-items-section {
+        width: 238px;
+      }
+      .left-texts {
+        width: 236px;
+      }
+    .left-texts h2 {
+        font-size: 30px;
+        font-family: "font-regular";
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.38;
+      }
+      .button-views {
+        text-align: center;
+      }
+      .button-views a {
+        background: #2874f0;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: "font-medium";
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        padding: 10px 20px;
+      } 
+      .images {
+        height: 98px;
+      }
+      .left-electronic-sections {
+        width: 236px;
+      }
+      .images img {
+        width: 230px;
+      }
+  }

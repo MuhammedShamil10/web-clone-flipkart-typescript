@@ -17,7 +17,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 h1,
 h2,
 h3,
@@ -49,6 +48,20 @@ nav {
   }
   .campus-item-container {
     display: none;
+  }
+  .items-joining {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    width: 99.66%;
+    height: 334px;
+  }
+  .campus-joining {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-top: 10px;
   }
 }
 

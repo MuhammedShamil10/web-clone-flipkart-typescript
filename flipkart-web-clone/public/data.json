@@ -283,156 +283,167 @@
   ],
   "toysMore": [
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/jk1grrk0/car-pressure-washer/j/c/m/06008a7af0-bosch-original-imaf7hd6bv8g3m6r.jpeg?q=70",
-      "name": "Car pressure washer",
-      "offer": "Upto 65% Off",
-      "brands": "Bosch,Black & Decker & More"
+      "image": "https://rukminim1.flixcart.com/image/200/200/jk1grrk0/car-pressure-washer/j/c/m/06008a7af0-bosch-original-imaf7hd6bv8g3m6r.jpeg?q=70",
+      "ProductNames": "Car pressure washer",
+      "text": "Upto 65% Off",
+      "brand": "Bosch,Black & Decker & More"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70",
-      "name": "Top Selling Stationery",
-      "offer": "From ₹49",
-      "brands": "Pens,Notebooks & more"
+      "image": "https://rukminim1.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70",
+      "ProductNames": "Top Selling Stationery",
+      "text": "From ₹49",
+      "brand": "Pens,Notebooks & more"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/monitor/v/i/j/-original-imagn6h2gfmkm774.jpeg?q=70",
-      "name": "Studio Headphones",
-      "offer": "Up to 80% off",
-      "brands": "Explore Now!"
+      "image": "https://rukminim1.flixcart.com/image/200/200/xif0q/monitor/v/i/j/-original-imagn6h2gfmkm774.jpeg?q=70",
+      "ProductNames": "Studio Headphones",
+      "text": "Up to 80% off",
+      "brand": "Explore Now!"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70",
-      "name": "Coffee Powder",
-      "offer": "Upto 80% Off",
-      "brands": "Nescafe,Continental & More"
+      "image": "https://rukminim1.flixcart.com/image/200/200/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70",
+      "ProductNames": "Coffee Powder",
+      "text": "Upto 80% Off",
+      "brand": "Nescafe,Continental & More"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70",
-      "name": "Rider Helmets",
-      "offer": "From ₹6599",
-      "brands": "Vega,Steelbird,HRX and More"
+      "image": "https://rukminim1.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70",
+      "ProductNames": "Rider Helmets",
+      "text": "From ₹6599",
+      "brand": "Vega,Steelbird,HRX and More"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kactpjk0/shaver/m/6/z/philips-s1121-45-s1121-45-original-imafry2qgxcwnm9r.jpeg?q=70",
-      "name": "Remote Control Toys",
-      "offer": "Up to 80% Off",
-      "brands": "Buy Now!"
+      "image": "https://rukminim1.flixcart.com/image/200/200/kactpjk0/shaver/m/6/z/philips-s1121-45-s1121-45-original-imafry2qgxcwnm9r.jpeg?q=70",
+      "ProductNames": "Remote Control Toys",
+      "text": "Up to 80% Off",
+      "brand": "Buy Now!"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70",
-      "name": "Gym Essentials",
-      "offer": "From ₹139",
-      "brands": "Shop Now"
+      "image": "https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70",
+      "ProductNames": "Gym Essentials",
+      "text": "From ₹139",
+      "brand": "Shop Now"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/jwzabgw0/trimmer/y/4/r/sensitive-touch-expert-veet-original-imafhjh5ah7vf9zc.jpeg?q=70",
-      "name": "Tyres",
-      "offer": "From 799",
-      "brands": "Apollo,Bridgestone,Ceat and"
+      "image": "https://rukminim1.flixcart.com/image/200/200/jwzabgw0/trimmer/y/4/r/sensitive-touch-expert-veet-original-imafhjh5ah7vf9zc.jpeg?q=70",
+      "ProductNames": "Tyres",
+      "text": "From 799",
+      "brand": "Apollo,Bridgestone,Ceat and"
     }
   ],
   "campusDeals": [
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/headphone/r/7/g/m19-bluetooth-earphone-touch-control-dual-led-display-with-torch-original-imaggyfy8ycgwh5g.jpeg?q=70",
-      "name": "Headset",
-      "offer": "Min. 50% Off"
+      "image": "https://rukminim1.flixcart.com/image/200/200/xif0q/headphone/r/7/g/m19-bluetooth-earphone-touch-control-dual-led-display-with-torch-original-imaggyfy8ycgwh5g.jpeg?q=70",
+      "ProductNames": "Headset",
+      "text": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/l05lx8w0/backpack/m/s/t/medium-30-l-laptop-casual-backpack-bagpack-for-men-women-blg15-original-imagcy8zk9yywffq.jpeg?q=70",
-      "name": "School Bags",
-      "offer": "Min. 50% Off"
+      "image": "https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70",
+      "ProductNames": "Gym Essentials",
+      "text": "From ₹139"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/l5ld8y80/smartwatch/r/q/t/-original-imagg8dksgct9hxg.jpeg?q=70",
-      "name": "Smart Watches",
-      "offer": "Up to 80% off"
+      "image": "https://rukminim1.flixcart.com/image/200/200/l05lx8w0/backpack/m/s/t/medium-30-l-laptop-casual-backpack-bagpack-for-men-women-blg15-original-imagcy8zk9yywffq.jpeg?q=70",
+      "ProductNames": "School Bags",
+      "text": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70",
-      "name": "Coffee Powder",
-      "offer": "Upto 80% Off"
+      "image": "https://rukminim1.flixcart.com/image/200/200/l5ld8y80/smartwatch/r/q/t/-original-imagg8dksgct9hxg.jpeg?q=70",
+      "ProductNames": "Smart Watches",
+      "text": "Up to 80% off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70",
-      "name": "Rider Helmets",
-      "offer": "From ₹6599"
+      "image": "https://rukminim1.flixcart.com/image/200/200/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70",
+      "ProductNames": "Coffee Powder",
+      "text": "Upto 80% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kactpjk0/shaver/m/6/z/philips-s1121-45-s1121-45-original-imafry2qgxcwnm9r.jpeg?q=70",
-      "name": "Remote Control Toys",
-      "offer": "Up to 80% Off"
+      "image": "https://rukminim1.flixcart.com/image/200/200/jwzabgw0/trimmer/y/4/r/sensitive-touch-expert-veet-original-imafhjh5ah7vf9zc.jpeg?q=70",
+      "ProductNames": "Tyres",
+      "text": "From 799"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70",
-      "name": "Gym Essentials",
-      "offer": "From ₹139"
+      "image": "https://rukminim1.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70",
+      "ProductNames": "Rider Helmets",
+      "text": "From ₹6599"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/jwzabgw0/trimmer/y/4/r/sensitive-touch-expert-veet-original-imafhjh5ah7vf9zc.jpeg?q=70",
-      "name": "Tyres",
-      "offer": "From 799"
+      "image": "https://rukminim1.flixcart.com/image/200/200/kactpjk0/shaver/m/6/z/philips-s1121-45-s1121-45-original-imafry2qgxcwnm9r.jpeg?q=70",
+      "ProductNames": "Remote Control Toys",
+      "text": "Up to 80% Off"
     }
+   
   ],
   "monsoonEssential": [
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/hair-oil/d/z/s/-original-imagq63mx8fyxtvr.jpeg?q=70",
+      "images": "https://rukminim1.flixcart.com/image/200/200/xif0q/hair-oil/d/z/s/-original-imagq63mx8fyxtvr.jpeg?q=70",
       "name": "Hair Oil",
-      "offer": "Min. 50% Off"
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/cap/k/a/u/free-new-fashion-speqta-original-imaggbugymfewgtg.jpeg?q=70",
-      "name": "Men's Caps",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/xif0q/cap/k/a/u/free-new-fashion-speqta-original-imaggbugymfewgtg.jpeg?q=70",
+      "names": "Men's Caps",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/bedsheet/t/x/d/printed-1-na-vo-db674-flat-cg-homes-original-imagz97hhup6tn6c.jpeg?q=70",
-      "name": "Bedsheets",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/xif0q/bedsheet/t/x/d/printed-1-na-vo-db674-flat-cg-homes-original-imagz97hhup6tn6c.jpeg?q=70",
+      "names": "Bedsheets",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/mug/p/v/l/heavy-gauge-laser-print-tea-coffe-milk-250-6-bhai-chara-original-imagnq83kq7wtcyc.jpeg?q=70",
-      "name": "Mugs",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/xif0q/mug/p/v/l/heavy-gauge-laser-print-tea-coffe-milk-250-6-bhai-chara-original-imagnq83kq7wtcyc.jpeg?q=70",
+      "names": "Mugs",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kq2o2vk0/iron/5/f/e/red-dry-iron-750w-vishpire-original-imag45bbq9tyjnd8.jpeg?q=70",
-      "name": "Irons",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/kq2o2vk0/iron/5/f/e/red-dry-iron-750w-vishpire-original-imag45bbq9tyjnd8.jpeg?q=70",
+      "names": "Irons",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/shopsy-lunch-box/c/d/r/1400-premium-quality-plastic-lunch-box-tiffin-box-for-school-original-imagzjajawxyk2nc.jpeg?q=70",
-      "name": "Lunch Boxes",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/xif0q/shopsy-lunch-box/c/d/r/1400-premium-quality-plastic-lunch-box-tiffin-box-for-school-original-imagzjajawxyk2nc.jpeg?q=70",
+      "names": "Lunch Boxes",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/mosquito-net/p/p/r/window-window-net-4x5-white-48-winnet4x5white-divyanshi-original-imaggkjd7j7v9x8c.jpeg?q=70",
-      "name": "Mosquito Nets",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/xif0q/mosquito-net/p/p/r/window-window-net-4x5-white-48-winnet4x5white-divyanshi-original-imaggkjd7j7v9x8c.jpeg?q=70",
+      "names": "Mosquito Nets",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/l5h2xe80/blanket/a/d/s/premium-superfine-soft-single-abstract-printed-fleece-polar-original-imagg59y3qyurppu.jpeg?q=70",
-      "name": "Steamers",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/l5h2xe80/blanket/a/d/s/premium-superfine-soft-single-abstract-printed-fleece-polar-original-imagg59y3qyurppu.jpeg?q=70",
+      "names": "Steamers",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/bottle/3/f/9/1000-crystal-clear-water-bottle-for-fridge-home-office-gym-original-imagnpgch6jzqgrm.jpeg?q=70",
-      "name": "Blankets",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/xif0q/bottle/3/f/9/1000-crystal-clear-water-bottle-for-fridge-home-office-gym-original-imagnpgch6jzqgrm.jpeg?q=70",
+      "names": "Blankets",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/l4oi4cw0/reflective-tape/c/u/5/15-20-0-13-night-reflective-car-wheel-safety-warning-car-original-imagfgwsgg3fhnux.jpeg?q=70",
-      "name": "Water Bottles & Flasks",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/l4oi4cw0/reflective-tape/c/u/5/15-20-0-13-night-reflective-car-wheel-safety-warning-car-original-imagfgwsgg3fhnux.jpeg?q=70",
+      "names": "Water Bottles & Flasks",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kdeum4w0/emergency-light/z/h/e/ssk-emb-09-01-syska-original-imafubksyern3ah5.jpeg?q=70",
-      "name": "Vegicle Light Bulbs",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/kdeum4w0/emergency-light/z/h/e/ssk-emb-09-01-syska-original-imafubksyern3ah5.jpeg?q=70",
+      "names": "Vegicle Light Bulbs",
+      "offers": "Min. 50% Off"
     },
     {
-      "img": "https://rukminim1.flixcart.com/image/200/200/kx25ksw0/steamer/n/9/1/aluminium-momos-steamer-no-8-having-3-tier-vpsk-2-3-original-imag9hkrqeatswjw.jpeg?q=70",
-      "name": "Emergency Bulbs",
-      "offer": "Min. 50% Off"
+      "images": "https://rukminim1.flixcart.com/image/200/200/kx25ksw0/steamer/n/9/1/aluminium-momos-steamer-no-8-having-3-tier-vpsk-2-3-original-imag9hkrqeatswjw.jpeg?q=70",
+      "names": "Emergency Bulbs",
+      "offers": "Min. 50% Off"
     }
-  ]
+  ],
+  "toysSide":{
+      "name": "Beauty,Food,Toys & more",
+      "allText": "VIEW ALL",
+      "image": "https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90"
+    },
+    "compusSide":{
+      "name": "End of Campus Deals",
+      "allText": "VIEW ALL",
+      "image": ""
+    }
 }

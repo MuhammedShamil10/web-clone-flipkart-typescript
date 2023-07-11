@@ -43,7 +43,7 @@ export default function DesktopSlider({ desktopValue }: desktopSlider) {
         {desktopValue?.map((item) => (
           <div
             className="image-carousel"
-            key={item}
+            // key={index}
             style={{
               transform: `translateX(${-100 * index}%)`,
               transition: `transform ease-out ${trans}s`,

@@ -46,7 +46,7 @@ export default function Electronics({ electronicValue }: Elprops) {
 
           <div className="product-electronic" ref={image}>
             {electronicValue.map((item) => (
-              <div className="product-electronic-section">
+              <div className="product-electronic-section" key={item.name}>
                 <div className="image-el">
                   <img src={item.img} alt="product-image" />
                 </div>
