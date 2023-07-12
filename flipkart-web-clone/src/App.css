@@ -63,6 +63,12 @@ nav {
     background: #fff;
     margin-top: 10px;
   }
+  .mansoon-joining {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 1600px) {

@@ -79,7 +79,7 @@
     width: 29%;
   }
   .prev-arrow {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: absolute;

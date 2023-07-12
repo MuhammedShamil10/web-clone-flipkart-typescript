@@ -18,6 +18,7 @@ import GraborGone from "./components/GraborGone/GraborGone";
 import Electronics from "./components/ElectronicsItems/Electronics";
 import SideDetailsCards from "./components/ProductCards/SideDetailsCards";
 import ProductCards from "./components/ProductCards/ProductCards";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const[categoriesData, setCategoriesData] = useState<CategoriesMobile[]>([]);
@@ -44,6 +45,12 @@ function App() {
     allText:"",
     image: ""
   });
+  const[monsoonSideData, setMonsoonSideData] = useState({
+    name:"",
+    allText:"",
+    image:""
+  })
+  const[monsoonEssentialData, setMansoonEssentialData] = useState([]);
 
   const fetchData = () => {
     fetch("./data.json")
@@ -66,6 +73,8 @@ function App() {
         setToysSide(data.toysSide);
         setCampusData(data.campusDeals);
         setCompusSideData(data.compusSide)
+        setMonsoonSideData(data.mansoonSide)
+        setMansoonEssentialData(data.monsoonEssential)
       });
   };
 
@@ -99,9 +108,15 @@ function App() {
       <SideDetailsCards sideItems={compusSideData} />
       <ProductCards productValue={campusData} />
       </div>
+      <div className="mansoon-joining">
+        <SideDetailsCards sideItems={monsoonSideData} />
+        <ProductCards productValue={monsoonEssentialData} />
       </div>
+      </div>
+      <Footer />
     </div>
   );
 }
 
 export default App;
+

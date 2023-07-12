@@ -1,5 +1,10 @@
-
+.left-electronic-sections {
+  display: none;
+}
   @media screen and (min-width: 1400px) {
+    .left-electronic-sections {
+      display: block;
+    }
     .Side-items-section {
         width: 238px;
       }

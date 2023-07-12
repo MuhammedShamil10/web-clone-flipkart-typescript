@@ -30,7 +30,7 @@
   min-height: 124px;
 }
 .items-list img {
-  width: 55.5px;
+  width: unset;
   height: 56.5px;
   margin-top: 12px;
   padding-bottom: 16px;
