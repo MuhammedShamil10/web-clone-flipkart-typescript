@@ -1,0 +1,21 @@
+.slide-section {
+  display: flex;
+  overflow: hidden;
+}
+.image-carousel {
+  min-width: 100%;
+  height: 100%;       
+}
+.image-carousel img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+    .slide-section {
+        display: none;
+    }
+    .RecentlyView-container {
+      display: none;
+    }
+}

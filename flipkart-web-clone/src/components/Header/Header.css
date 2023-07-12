@@ -1,0 +1,158 @@
+header {
+  background-color: rgba(40, 116, 240, 1);
+}
+.top-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  padding: 0 5pxs;
+  width: 42px;
+}
+.flipkart-name {
+  display: flex;
+  justify-content: center;
+  margin-left: -6px;
+  width: 85px;
+}
+.image-section-last {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  width: 90px;
+}
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6px;
+    background-color: rgba(40, 116, 240, 1);
+    height: 54px;
+}
+.header-input-section {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 38px;
+    width: 100%;
+}
+.input-image {
+    margin: 10px;
+}
+.input-image img {
+    margin-top: 5px;
+    width: 14px;
+}
+.input-text {
+    font-size: 14px;
+    color: #878787;
+}
+.desktop-input-container {
+  display: none;
+}
+.image-section-last span {
+  color: #fff;
+}
+
+@media screen and (min-width: 1400px) {
+  .top-header-section {
+    display: none;
+  }
+  .header-center {
+    display: none;
+  }
+  .desktop-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+  }
+  .flipkart-logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  .flipkart-logo a {
+    font-size: 11px;
+    color: #f0f0f0;
+    text-decoration: none;
+  }
+  .flipkart-logo span {
+    margin-left: 3px;
+    color: #ffe500;
+  }
+  .input-section {
+    display: flex;
+    align-items: center;
+  }
+  .search-input form {
+    display: flex;
+  }
+  .search-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .search-input button {
+    position: absolute;
+    right: 0;
+    border: none;
+    background: transparent;
+    padding: 4px 12px 0 8px;
+  }
+  .search-input input {
+    border: none;
+    font-size: 14px;
+    font-family: 'font-regular';
+    width: 100%;
+    min-width: 564px;
+    height: 36px;
+    padding-left: 16px;
+  }
+  .more-section img {
+    color: #ffe500;
+  }
+  .more-section img {
+    transform: rotate(270deg);
+  }
+  .login a {
+    color: rgba(40, 116, 240, 1);
+    background: #fff;
+    padding: 5px 40px;
+    text-decoration: none;
+  }
+  .login ,
+  .join-seller ,
+  .more-section ,
+  .product-cart  {
+    margin: 0 20px;
+  }
+  .join-seller span,
+  .more-section span,
+  .product-cart span {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'font-medium';
+  }
+  .angle-down {
+    margin-left: 10px;
+  }
+  .nav-cart {
+    margin-right: 5px;
+  }
+
+}

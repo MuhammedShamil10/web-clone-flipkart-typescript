@@ -1,0 +1,16 @@
+.nav-categories {
+  display: flex;
+  overflow: scroll;
+}
+.nav-categories::-webkit-scrollbar {
+  display: none;
+}
+.nav-categories img {
+  width: 18.333%;
+}
+
+@media screen and (min-width: 1400px) {
+  .nav-categories {
+    display: none;
+  }
+}

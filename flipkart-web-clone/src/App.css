@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+/* font styles */
+@font-face {
+  font-family: "font-medium";
+  src: url(./Assets/font/roboto-medium.woff2);
+}
+@font-face {
+  font-family: "font-regular";
+  src: url(./Assets/font/roboto-regular.woff2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f1f3f4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h3,
+a,
+span {
+  color: #212121;
+}
+
+nav {
+  background-color: #fff;
+}
+.desktop-slider-container {
+  padding: 20px 8px 0 8px;
+}
+.dsk-electronic-container {
+  display: none;
+}
+
+@media screen and (min-width: 1400px) {
+  .bestseller-container {
+    display: none;
+  }
+  .placer-order-section {
+    display: none;
+  }
+  .mansoon-container {
+    display: none;
+  }
+  .campus-item-container {
+    display: none;
+  }
+  .items-joining {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    width: 99.66%;
+    height: 334px;
+  }
+  .campus-joining {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-top: 10px;
+  }
+  .mansoon-joining {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-top: 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (min-width: 1600px) {
+  /* div {
+    margin: 0 auto;
+    min-width: 978px;
+    max-width: 1680px;
+    padding: 8px;
+  } */
 }
